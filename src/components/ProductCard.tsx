@@ -9,7 +9,7 @@ interface IPropsProductCard {
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-const ProductCard = ({ product, id}: IPropsProductCard) => {
+const ProductCard = ({ product}: IPropsProductCard) => {
   return (
     <div className="">
       <div className="relative h-[400px] flex flex-col text-gray-700 bg-white shadow-md w-66 rounded-xl  mx-auto p-2 border-slate-300 border-[1px] mb-5 ">
